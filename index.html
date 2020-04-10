@@ -1,11 +1,464 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/533eabfae1.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__nav">
+          <div class="row">
+            <div class="logo col-lg-4">
+              <img src="img/logo.png" alt="logo" />
+            </div>
+            <div class="col-lg-6">
+              <div class="header__list">
+                <nav>
+                  <ul>
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact us</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="btn"><a href="#">Login</a></div>
+            </div>
+          </div>
+          <div class="line"><hr /></div>
+        </div>
+        <div class="header__content">
+          <h1>Flat <span>+</span>Free <span>=</span>Flaby</h1>
+          <p>
+            A Modern Flat design corporate template for free download with all
+            great features and trendy look.
+          </p>
+          <div class="header__content header__content_btns">
+            <a href="#"><img src="img/google_play.png" />Google Store</a
+            ><a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="ourServicies">
+      <div class="container">
+        <p class="text-center">Welcome to</p>
+        <h2 class="text-center">Our Servicies</h2>
+        <div class="row">
+          <div class="col-lg-4 text-center">
+            <div class="ourServicies__item">
+              <div class="ourServicies__item_pic">
+                <img src="img/Serv1.png" alt="Serv1" />
+              </div>
+              <h3>Web Development</h3>
+              <p>
+                There are many variations of passages of Lorem Ipsum available,
+                the majorityalteration make difficult
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 text-center">
+            <div class="ourServicies__item">
+              <div class="ourServicies__item_pic">
+                <img src="img/Serv2.png" alt="Serv2" />
+              </div>
+              <h3>Photography</h3>
+              <p>
+                There are many variations of passages of Lorem Ipsum available,
+                the majorityalteration make difficult
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 text-center">
+            <div class="ourServicies__item">
+              <div class="ourServicies__item_pic">
+                <img src="img/Serv3.png" alt="Serv3" />
+              </div>
+              <h3>Vector Artist</h3>
+              <p>
+                There are many variations of passages of Lorem Ipsum available,
+                the majorityalteration make difficult
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="features">
+      <!-- <div class="container-fuid"> -->
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="pic">
+            <img src="img/features.png" alt="features" />
+          </div>
+        </div>
+        <div class="col-lg-7 features__content">
+          <p class="features__underTitle">We have great features with</p>
+          <h2>Unlimited Customization Features</h2>
+          <p class="features__afterTitle">
+            There are many variations of passages of Lorem Ipsum available, the
+            majorityalteration make difficult
+          </p>
+
+          <div class="features__items">
+            <div class="features__item">
+              <img src="img/blue point.png" alt="blue point" />
+              <p>More wordpress featrures with great responsive design.</p>
+            </div>
+            <div class="features__item">
+              <img src="img/blue point.png" alt="blue point" />
+              <p>Corporate flat design with necessary elements.</p>
+            </div>
+            <div class="features__item">
+              <img src="img/blue point.png" alt="blue point" />
+              <p>Free vector shape and mockup by great designer.</p>
+            </div>
+            <div class="features__item">
+              <img src="img/blue point.png" alt="blue point" />
+              <p>Full one page flat and modern trend following goods.</p>
+            </div>
+          </div>
+          <div class="fetures__btn">
+            <a href="#">Read more</a>
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+    </section>
+    <section class="otherServices">
+      <div class="container">
+        <p class="underTitle">View Our Latest</p>
+        <h2>other services</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="otherServices__item">
+              <div class="pic"><img src="img/icon1.png" alt="icon1" /></div>
+              <div class="otherServices__text">
+                <h3>Idea Developing</h3>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majorityalteration in some form with design
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="otherServices__item">
+              <div class="pic"><img src="img/icon2.png" alt="icon2" /></div>
+              <div class="otherServices__text">
+                <h3>Best Coding</h3>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majorityalteration in some form with design
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="otherServices__item">
+              <div class="pic"><img src="img/icon3.png" alt="icon3" /></div>
+              <div class="otherServices__text">
+                <h3>Responsive Design</h3>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majorityalteration in some form with design
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="otherServices__item">
+              <div class="pic"><img src="img/icon4.png" alt="icon4" /></div>
+              <div class="otherServices__text">
+                <h3>Free Shopping</h3>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majorityalteration in some form with design
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="otherServices__item">
+              <div class="pic"><img src="img/icon5.png" alt="icon5" /></div>
+              <div class="otherServices__text">
+                <h3>Bonus Download</h3>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majorityalteration in some form with design
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="otherServices__item">
+              <div class="pic"><img src="img/icon6.png" alt="icon6" /></div>
+              <div class="otherServices__text">
+                <h3>Idea Developing</h3>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majorityalteration in some form with design
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials">
+      <div class="container">
+        <div class="testimonials__underTitle">Get know About</div>
+        <h4>what customer say</h4>
+        <div class="testimonials__item">
+          <div class="testimonials__pic">
+            <img src="img/testimonials.png" alt="testimonials" />
+            <div class="testimonials__content">
+              <h5>Sourabh B.</h5>
+              <p class="testimonials__contentSubTitle">
+                Co Founder of Mew
+              </p>
+              <p class="testimonials__contentText">
+                Great Team with great experience, i would reguler recommended to
+                all that you will get better support by working with this
+                awesome team and their expert members :)
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonials__arrow">
+          <div class="row justify-content-center">
+            <p class="mr-2"><span class=" mx-2 ">&larr;</span> Previous</p>
+            <p>Next<span class=" mx-2 ">&rarr;</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="resourse">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="resourse__content">
+              <p class="underTitle">
+                Feel free to download our
+              </p>
+              <h5>Great Resourse for free</h5>
+              <p class="subTitle">
+                There are many variations of passages of Lorem Ipsum available &
+                majorityalteration
+              </p>
+              <p class="resourse__text">
+                Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from
+                45 BC, making it over 2000 years old. Richard McClintock, a
+                Latin professor at Hampden-Sydney College in Virginia,
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="resource__pic">
+              <img src="img/mockup.png" alt="mockup" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pricingPlan">
+      <div class="container">
+        <p class="under__title">
+          Get Idea Aboum
+        </p>
+        <h5>Pricing plan</h5>
+        <div class="pricingPlan__items">
+          <div class="pricingPlan__item">
+            <div class="pricingPlan__pic1">
+              <img src="img/Book.png" alt="Book" />
+            </div>
+            <h6>Student</h6>
+            <div class="pricingPlan__pic2">
+              <div class="pricingPlan__dollar">
+                <img src="img/$.png" alt="$" />
+              </div>
+              <img src="img/39.png" alt="" />
+              <div class="pricingPlan__mo">
+                <img src="img/_mo.png" alt="" />
+              </div>
+            </div>
+            <div class="pricingPlan__item_list">
+              <p class="includedServicies">
+                6 GB storage <br />
+                Fast Brandwidht
+              </p>
+              <p>
+                Responsive <br />
+                Customization
+              </p>
+            </div>
+            <a href="#">Sign up</a>
+          </div>
+          <div class="pricingPlan__item">
+            <div class="pricingPlan__pic1">
+              <img src="img/bag.png" alt="bag" />
+            </div>
+            <h6>Professional</h6>
+            <div class="pricingPlan__pic2">
+              <div class="pricingPlan__dollar">
+                <img src="img/$.png" alt="$" />
+              </div>
+              <img src="img/59.png" alt="" />
+              <div class="pricingPlan__mo">
+                <img src="img/_mo.png" alt="" />
+              </div>
+            </div>
+            <div class="pricingPlan__item_list">
+              <p class="includedServicies">
+                6 GB storage <br />
+                Fast Brandwidht <br />
+                Responsive
+              </p>
+              <p>Customization</p>
+            </div>
+            <a href="#">Sign up</a>
+          </div>
+          <div class="pricingPlan__item">
+            <div class="pricingPlan__pic1">
+              <img src="img/shoppingBag.png" alt="shoppingBag" />
+            </div>
+            <h6>Unlimited</h6>
+            <div class="pricingPlan__pic2">
+              <div class="pricingPlan__dollar">
+                <img src="img/$.png" alt="$" />
+              </div>
+              <img src="img/99.png" alt="" />
+              <div class="pricingPlan__mo">
+                <img src="img/_mo.png" alt="" />
+              </div>
+            </div>
+            <div class="pricingPlan__item_list">
+              <p class="includedServicies">
+                6 GB storage <br />
+                Fast Brandwidht <br />
+                Responsive <br />
+                Customization
+              </p>
+            </div>
+            <a href="#">Sign up</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="subscribe">
+      <div class="container">
+        <p class="underTitle">For latest newsletter</p>
+        <h6>Subscribe now</h6>
+        <div class="subscribe__form">
+          <form action="#">
+            <input type="text" placeholder="Nicky Moa" />
+            <input type="email" placeholder="Example@gmail.com" />
+            <button>Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="line2">
+          <hr />
+        </div>
+        <div class="footer__items">
+          <div class="flaby">
+            <div class="footer__logo">
+              <img src="img/logo1.png" alt="logo1" />
+            </div>
+            <p>
+              Flaby is a free flat template and available for free downloads but
+              please don’t use for sell
+            </p>
+            <div class="footer__socials">
+              <div class=" footer__socials footer__socialsF">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </div>
+              <div class=" footer__socials footer__socialsG">
+                <a href="#" class="google"
+                  ><i class="fab fa-goodreads-g"></i>+</a
+                >
+              </div>
+
+              <div class=" footer__socials footer__socialsT">
+                <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer__item">
+            <h6>Useful Link</h6>
+            <a href="#">Resource</a>
+            <a href="#">Downloads</a>
+            <a href="#">Grafics</a>
+            <a href="#">Templates</a>
+            <a href="#">UI colors</a>
+          </div>
+          <div class="footer__item">
+            <h6>Free Goods</h6>
+            <a href="#">Movies</a>
+            <a href="#">Music</a>
+            <a href="#">Videos</a>
+            <a href="#">Games</a>
+            <a href="#">Application</a>
+          </div>
+          <div class="footer__item">
+            <h6>Elements</h6>
+            <a href="#">UI Elements</a>
+            <a href="#">Materials</a>
+            <a href="#">Flat UI</a>
+            <a href="#">Print File</a>
+            <a href="#">Flyer</a>
+          </div>
+          <div class="footer__item">
+            <h6>About us</h6>
+            <a href="#">Home</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Layourt</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact Us</a>
+          </div>
+        </div>
+        <div class="line2">
+          <hr />
+        </div>
+       <div class="footer__text">
+         <p>&copy; Copyright 2017</p>
+        <div style="height:20px;  border-left:1px solid #7c7c7c;  padding-left:10px"> </div>
+         <p>All rights reserved</p>
+        <div class="footer__line" style="height:20px; border-left:1px solid #7c7c7c;  padding:10px 0"> </div>
+         <p>Template Designed By <span>Sourabh Barua</span></p>
+       </div>
+
+      </div>
+    </footer>
+  </body>
 </html>
