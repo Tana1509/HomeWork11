@@ -30,38 +30,48 @@
     <header class="header">
       <div class="container">
         <div class="header__nav">
-          <div class="row">
-            <div class="logo col-lg-4">
-              <img src="img/logo.png" alt="logo" />
-            </div>
-            <div class="col-lg-6">
-              <div class="header__list">
-                <nav>
-                  <ul>
-                    <li><a class="active" href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact us</a></li>
-                  </ul>
-                </nav>
-              </div>
-            </div>
-            <div class="col-lg-2">
-              <div class="btn"><a href="#">Login</a></div>
-            </div>
+          <div>
+            <img src="img/logo.png" alt="logo" />
           </div>
-          <div class="line"><hr /></div>
+
+          <div class="header__nav__list">
+            <div class="header__list">
+              <nav>
+                <ul>
+                  <li><a class="active" href="#">Home</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Portfolio</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact us</a></li>
+                </ul>
+              </nav>
+            </div>
+  
+            <div class="btn"><a href="#">Login</a></div>
+          </div>
+
+          <div class="header__burger">
+            <span class="header__line header__line_top"></span>
+            <span class="header__line header__line_middle"></span>
+            <span class="header__line header__line_bottom"></span>
+          </div>
         </div>
+        <div class="line"><hr /></div>
         <div class="header__content">
           <h1>Flat <span>+</span>Free <span>=</span>Flaby</h1>
           <p>
             A Modern Flat design corporate template for free download with all
             great features and trendy look.
           </p>
-          <div class="header__content header__content_btns">
-            <a href="#"><img src="img/google_play.png" />Google Store</a
-            ><a href="#">Learn more</a>
+          <div
+            class="header__content_btns"
+          >
+            <div class="header__content_btns_google">
+              <a href="#"><img src="img/google_play.png" />Google Store</a>
+            </div>
+            <div class="header__content_btns_learn">
+              <a href="#">Learn more</a>
+            </div>
           </div>
         </div>
       </div>
@@ -235,9 +245,9 @@
       <div class="container">
         <div class="testimonials__underTitle">Get know About</div>
         <h4>what customer say</h4>
-        <div class="testimonials__item">
+        <div class="testimonials__item text-center">
           <div class="testimonials__pic">
-            <img src="img/testimonials.png" alt="testimonials" />
+            <img src="./img/author_image.png" alt="testimonials" /> </div>
             <div class="testimonials__content">
               <h5>Sourabh B.</h5>
               <p class="testimonials__contentSubTitle">
@@ -249,11 +259,11 @@
                 awesome team and their expert members :)
               </p>
             </div>
-          </div>
+          
         </div>
         <div class="testimonials__arrow">
           <div class="row justify-content-center">
-            <p class="mr-2"><span class=" mx-2 ">&larr;</span> Previous</p>
+            <p class="mr-4"><span class="mx-2 ">&larr;</span> Previous</p>
             <p>Next<span class=" mx-2 ">&rarr;</span></p>
           </div>
         </div>
@@ -300,13 +310,14 @@
               <img src="img/Book.png" alt="Book" />
             </div>
             <h6>Student</h6>
-            <div class="pricingPlan__pic2">
-              <div class="pricingPlan__dollar">
-                <img src="img/$.png" alt="$" />
+            <div class="pricingPlan__price">
+              <div class="pricingPlan__price pricingPlan__dollar">
+                <p>$</p>
               </div>
-              <img src="img/39.png" alt="" />
-              <div class="pricingPlan__mo">
-                <img src="img/_mo.png" alt="" />
+              <div class="pricingPlan__price pricingPlan__number">
+              <p>39</p>
+              
+                <p class="pricingPlan__mo">/mo</p>
               </div>
             </div>
             <div class="pricingPlan__item_list">
@@ -326,15 +337,16 @@
               <img src="img/bag.png" alt="bag" />
             </div>
             <h6>Professional</h6>
-            <div class="pricingPlan__pic2">
-              <div class="pricingPlan__dollar">
-                <img src="img/$.png" alt="$" />
-              </div>
-              <img src="img/59.png" alt="" />
-              <div class="pricingPlan__mo">
-                <img src="img/_mo.png" alt="" />
-              </div>
-            </div>
+                <div class="pricingPlan__price">
+                  <div class="pricingPlan__price pricingPlan__dollar">
+                    <p>$</p>
+                  </div>
+                  <div class="pricingPlan__price pricingPlan__number">
+                    <p>59</p>
+                
+                    <p class="pricingPlan__mo">/mo</p>
+                  </div>
+                </div>
             <div class="pricingPlan__item_list">
               <p class="includedServicies">
                 6 GB storage <br />
@@ -350,15 +362,16 @@
               <img src="img/shoppingBag.png" alt="shoppingBag" />
             </div>
             <h6>Unlimited</h6>
-            <div class="pricingPlan__pic2">
-              <div class="pricingPlan__dollar">
-                <img src="img/$.png" alt="$" />
+              <div class="pricingPlan__price">
+                <div class="pricingPlan__price pricingPlan__dollar">
+                  <p>$</p>
+                </div>
+                <div class="pricingPlan__price pricingPlan__number">
+                  <p>99</p>
+              
+                  <p class="pricingPlan__mo">/mo</p>
+                </div>
               </div>
-              <img src="img/99.png" alt="" />
-              <div class="pricingPlan__mo">
-                <img src="img/_mo.png" alt="" />
-              </div>
-            </div>
             <div class="pricingPlan__item_list">
               <p class="includedServicies">
                 6 GB storage <br />
@@ -380,7 +393,7 @@
           <form action="#">
             <input type="text" placeholder="Nicky Moa" />
             <input type="email" placeholder="Example@gmail.com" />
-            <button>Subscribe</button>
+            <button type="submit">Subscribe</button>
           </form>
         </div>
       </div>
@@ -391,74 +404,84 @@
           <hr />
         </div>
         <div class="footer__items">
-          <div class="flaby">
-            <div class="footer__logo">
-              <img src="img/logo1.png" alt="logo1" />
-            </div>
-            <p>
-              Flaby is a free flat template and available for free downloads but
-              please don’t use for sell
-            </p>
-            <div class="footer__socials">
-              <div class=" footer__socials footer__socialsF">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <div class="row">
+            <div class="flaby col-3">
+              <div class="footer__logo">
+                <img src="img/logo1.png" alt="logo1" />
               </div>
-              <div class=" footer__socials footer__socialsG">
-                <a href="#" class="google"
-                  ><i class="fab fa-goodreads-g"></i>+</a
-                >
-              </div>
+              <p>
+                Flaby is a free flat template and available for free downloads
+                but please don’t use for sell
+              </p>
+              <div class="footer__socials">
+                <div class="footer__social">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </div>
+                <div class="footer__social">
+                  <a href="#" class="google"
+                    ><i class="fab fa-goodreads-g"></i>+</a
+                  >
+                </div>
 
-              <div class=" footer__socials footer__socialsT">
-                <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                <div class=" footer__social">
+                  <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="footer__item">
-            <h6>Useful Link</h6>
-            <a href="#">Resource</a>
-            <a href="#">Downloads</a>
-            <a href="#">Grafics</a>
-            <a href="#">Templates</a>
-            <a href="#">UI colors</a>
-          </div>
-          <div class="footer__item">
-            <h6>Free Goods</h6>
-            <a href="#">Movies</a>
-            <a href="#">Music</a>
-            <a href="#">Videos</a>
-            <a href="#">Games</a>
-            <a href="#">Application</a>
-          </div>
-          <div class="footer__item">
-            <h6>Elements</h6>
-            <a href="#">UI Elements</a>
-            <a href="#">Materials</a>
-            <a href="#">Flat UI</a>
-            <a href="#">Print File</a>
-            <a href="#">Flyer</a>
-          </div>
-          <div class="footer__item">
-            <h6>About us</h6>
-            <a href="#">Home</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Layourt</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact Us</a>
+            <div class="col-lg-9">
+              <div class="row">
+                <div class="footer__item col-md-3 col-sm-6">
+                  <h6>Useful Link</h6>
+                  <a href="#">Resource</a>
+                  <a href="#">Downloads</a>
+                  <a href="#">Grafics</a>
+                  <a href="#">Templates</a>
+                  <a href="#">UI colors</a>
+                </div>
+                <div class="footer__item col-md-3 col-sm-6">
+                  <h6>Free Goods</h6>
+                  <a href="#">Movies</a>
+                  <a href="#">Music</a>
+                  <a href="#">Videos</a>
+                  <a href="#">Games</a>
+                  <a href="#">Application</a>
+                </div>
+                <div class="footer__item col-md-3 col-sm-6">
+                  <h6>Elements</h6>
+                  <a href="#">UI Elements</a>
+                  <a href="#">Materials</a>
+                  <a href="#">Flat UI</a>
+                  <a href="#">Print File</a>
+                  <a href="#">Flyer</a>
+                </div>
+                <div class="footer__item col-md-3 col-sm-6">
+                  <h6>About us</h6>
+                  <a href="#">Home</a>
+                  <a href="#">Portfolio</a>
+                  <a href="#">Layourt</a>
+                  <a href="#">Blog</a>
+                  <a href="#">Contact Us</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="line2">
           <hr />
         </div>
-       <div class="footer__text">
-         <p>&copy; Copyright 2017</p>
-        <div style="height:20px;  border-left:1px solid #7c7c7c;  padding-left:10px"> </div>
-         <p>All rights reserved</p>
-        <div class="footer__line" style="height:20px; border-left:1px solid #7c7c7c;  padding:10px 0"> </div>
-         <p>Template Designed By <span>Sourabh Barua</span></p>
-       </div>
-
+        <div class="footer__text">
+          <p>&copy; Copyright 2017</p>
+          <div class="footer__line"
+                      ></div>
+          <p>All rights reserved</p>
+          <div
+            class="footer__line"
+                      ></div>
+          <p>Template Designed By <span>Sourabh Barua</span></p>
+        </div>
       </div>
     </footer>
+    <script src="./jquery-3.5.0.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>
