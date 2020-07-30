@@ -8,5 +8,21 @@ $(document).ready(function () {
         navigation.toggleClass("active");
     });
 
-    
+    // кнопка "наверх"
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 0) {
+            $(".to__top").fadeIn();
+        } else {
+            $(".to__top").fadeOut();
+        }
+    });
+    $(".to__top").click(function () {
+        $("body,html").animate(
+            {
+                scrollTop: 0,
+            },
+            500
+        );
+        return false;
+    });
 });

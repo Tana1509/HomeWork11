@@ -34,7 +34,7 @@
   font-family: "Roboto Slab";
   transition: 0.7s;
   &:hover {
-    letter-spacing: 0.5em;
+    letter-spacing: 0.1em;
   }
 }
 
@@ -96,7 +96,7 @@ header {
       display: flex;
       justify-content: left;
       align-items: center;
-       @media screen and (max-width: 992px) {
+      @media screen and (max-width: 992px) {
         position: fixed;
         z-index: 1100;
         display: none;
@@ -111,17 +111,17 @@ header {
         height: 100%;
         background: linear-gradient(
           189deg,
-          rgba(2, 0, 36, .3) 2%,
+          rgba(2, 0, 36, 0.3) 2%,
           rgba(99, 177, 244, 1) 61%,
           rgba(0, 212, 255, 1) 100%
         );
         transform: translateX(-100%);
-    transition: 1s;
+        transition: 1s;
       }
-       &.active {
-          transform: translateX(0);
-          //   display: flex;
-    }
+      &.active {
+        transform: translateX(0);
+        //   display: flex;
+      }
       .header__list {
         ul {
           display: flex;
@@ -173,11 +173,9 @@ header {
             background: #ffffff21;
           }
         }
-        // @media screen and (max-width: 992px) {
-        //   display: none;
-        // }
+      
       }
-     }
+    }
     .header__burger {
       display: none;
       width: 40px;
@@ -251,6 +249,7 @@ header {
         background: #00000017;
         border-radius: 10px;
         text-decoration: none;
+        white-space: nowrap;
 
         img {
           margin-right: 20px;
@@ -483,7 +482,7 @@ section.otherServices {
 
 .resourse {
   margin: 80px 0;
-  .resourse__content {
+    .resourse__content {
     max-width: 445px;
     width: 100%;
   }
@@ -512,6 +511,10 @@ section.otherServices {
   .resource__pic {
     max-width: 532px;
     width: 100%;
+    img {
+      max-width: 532px;
+      width: 100%;
+    }
   }
 }
 .pricingPlan {
@@ -527,6 +530,10 @@ section.otherServices {
     justify-content: center;
     align-items: center;
     margin-top: 140px;
+    @media screen and(max-width: 575px) {
+      flex-direction: column;
+    }
+
     .pricingPlan__item {
       background: url(../img/pricingPlan_BG.png);
       border: 1px solid rgba(0, 0, 0, 0.04);
@@ -538,6 +545,7 @@ section.otherServices {
       width: 100%;
       height: 581px;
       transition: 0.5s;
+      margin-bottom: 30px;
       &:hover {
         transform: scale(1.1);
         filter: drop-shadow(0 0 25.5px rgba(92, 149, 161, 0.33));
@@ -738,7 +746,21 @@ section.otherServices {
       }
     }
   }
-  // }
+  .to__top {
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 25%;
+    background-color: #2eb0ec80;
+    color: #ffffff;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    transition: .5s;
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.712);
+      color: #2eb0ec;
+    }
+  }
   .footer__text {
     display: flex;
     justify-content: left;

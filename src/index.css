@@ -280,6 +280,7 @@ header .header__content .header__content_btns a {
   background: #00000017;
   border-radius: 10px;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 header .header__content .header__content_btns a img {
@@ -326,7 +327,7 @@ header .header__content .header__content_btns a:not(:last-child) {
 }
 
 .ourServicies p:hover {
-  letter-spacing: 0.5em;
+  letter-spacing: 0.1em;
 }
 
 .ourServicies h2 {
@@ -517,7 +518,7 @@ section.otherServices .underTitle {
 }
 
 section.otherServices .underTitle:hover {
-  letter-spacing: 0.5em;
+  letter-spacing: 0.1em;
 }
 
 section.otherServices h2 {
@@ -611,7 +612,7 @@ section.otherServices .otherServices__item .otherServices__text p {
 }
 
 .testimonials .testimonials__underTitle:hover {
-  letter-spacing: 0.5em;
+  letter-spacing: 0.1em;
 }
 
 .testimonials h4 {
@@ -765,6 +766,11 @@ section.otherServices .otherServices__item .otherServices__text p {
   width: 100%;
 }
 
+.resourse .resource__pic img {
+  max-width: 532px;
+  width: 100%;
+}
+
 .pricingPlan {
   background: url(../img/BG3.png) no-repeat center/cover;
 }
@@ -781,7 +787,7 @@ section.otherServices .otherServices__item .otherServices__text p {
 }
 
 .pricingPlan .under__title:hover {
-  letter-spacing: 0.5em;
+  letter-spacing: 0.1em;
 }
 
 .pricingPlan h5 {
@@ -829,6 +835,15 @@ section.otherServices .otherServices__item .otherServices__text p {
   margin-top: 140px;
 }
 
+@media screen and (max-width: 575px) {
+  .pricingPlan .pricingPlan__items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
 .pricingPlan .pricingPlan__items .pricingPlan__item {
   background: url(../img/pricingPlan_BG.png);
   border: 1px solid rgba(0, 0, 0, 0.04);
@@ -848,6 +863,7 @@ section.otherServices .otherServices__item .otherServices__text p {
   height: 581px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  margin-bottom: 30px;
 }
 
 .pricingPlan .pricingPlan__items .pricingPlan__item:hover {
@@ -975,7 +991,7 @@ section.otherServices .otherServices__item .otherServices__text p {
 }
 
 .subscribe p:hover {
-  letter-spacing: 0.5em;
+  letter-spacing: 0.1em;
 }
 
 .subscribe h6 {
@@ -1211,6 +1227,24 @@ section.otherServices .otherServices__item .otherServices__text p {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   font-weight: 700;
+}
+
+.footer .to__top {
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 25%;
+  background-color: #2eb0ec80;
+  color: #ffffff;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.footer .to__top:hover {
+  background-color: rgba(255, 255, 255, 0.712);
+  color: #2eb0ec;
 }
 
 .footer .footer__text {
